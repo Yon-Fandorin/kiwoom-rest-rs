@@ -1,0 +1,16 @@
+[package]
+name = "kiwoom-domain"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+kiwoom-core = { path = "../kiwoom-core" }
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+rust_decimal.workspace = true
+
+[lints]
+workspace = true

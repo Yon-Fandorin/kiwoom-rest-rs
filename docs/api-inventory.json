@@ -1,0 +1,5977 @@
+{
+  "observed_at": "2026-10-12",
+  "source": "https://openapi.kiwoom.com/m/guide/apiguide?dummyVal=0",
+  "scope": "public OAuth/domestic/US list only; independent factual ID checklist, no redistributed schemas",
+  "entries": [
+    {
+      "id": "au10001",
+      "market": "oauth",
+      "public_guide_group": "a1",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/a1/au10001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "oauth",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/auth.rs#TokenRequest"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/contracts.rs#oauth_token_and_revoke_are_typed_and_not_retried"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "au10002",
+      "market": "oauth",
+      "public_guide_group": "a2",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/a2/au10002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "oauth",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/auth.rs#RevokeRequest"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/contracts.rs#oauth_token_and_revoke_are_typed_and_not_retried"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka00001",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka00001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka00001Request",
+        "docs/contracts/accounts.md#ka00001"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka00001_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka01690",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka01690",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka01690Request",
+        "docs/contracts/accounts.md#ka01690"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka01690_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10072",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10072",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10072Request",
+        "docs/contracts/accounts.md#ka10072"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10072_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10073",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10073",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10073Request",
+        "docs/contracts/accounts.md#ka10073"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10073_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10074",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10074",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10074Request",
+        "docs/contracts/accounts.md#ka10074"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10074_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10075",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10075",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10075Request",
+        "docs/contracts/accounts.md#ka10075"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10075_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10076",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10076",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10076Request",
+        "docs/contracts/accounts.md#ka10076"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10076_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10077",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10077",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10077Request",
+        "docs/contracts/accounts.md#ka10077"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10077_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10085",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10085",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10085Request",
+        "docs/contracts/accounts.md#ka10085"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10085_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10088",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10088",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10088Request",
+        "docs/contracts/accounts.md#ka10088"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10088_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10170",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/ka10170",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Ka10170Request",
+        "docs/contracts/accounts.md#ka10170"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ka10170_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00001",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00001Request",
+        "docs/contracts/accounts.md#kt00001"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00001_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00002",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00002Request",
+        "docs/contracts/accounts.md#kt00002"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00002_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00003",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00003Request",
+        "docs/contracts/accounts.md#kt00003"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00003_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00004",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00004",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00004Request",
+        "docs/contracts/accounts.md#kt00004"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00004_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00005",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00005",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00005Request",
+        "docs/contracts/accounts.md#kt00005"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00005_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00007",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00007",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00007Request",
+        "docs/contracts/accounts.md#kt00007"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00007_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00008",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00008",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00008Request",
+        "docs/contracts/accounts.md#kt00008"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00008_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00009",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00009",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00009Request",
+        "docs/contracts/accounts.md#kt00009"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00009_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00010",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00010",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00010Request",
+        "docs/contracts/accounts.md#kt00010"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00010_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00011",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00011",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00011Request",
+        "docs/contracts/accounts.md#kt00011"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00011_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00012",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00012",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00012Request",
+        "docs/contracts/accounts.md#kt00012"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00012_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00013",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00013",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00013Request",
+        "docs/contracts/accounts.md#kt00013"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00013_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00015",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00015",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/transactions.rs#Kt00015Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/contracts.rs#domestic_contract_uses_documented_array_and_path"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00016",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00016",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00016Request",
+        "docs/contracts/accounts.md#kt00016"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00016_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00017",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00017",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00017Request",
+        "docs/contracts/accounts.md#kt00017"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00017_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt00018",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt00018",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt00018Request",
+        "docs/contracts/accounts.md#kt00018"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt00018_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50020",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt50020",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt50020Request",
+        "docs/contracts/accounts.md#kt50020"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt50020_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50021",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt50021",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt50021Request",
+        "docs/contracts/accounts.md#kt50021"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt50021_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50030",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt50030",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt50030Request",
+        "docs/contracts/accounts.md#kt50030"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt50030_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50031",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt50031",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt50031Request",
+        "docs/contracts/accounts.md#kt50031"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt50031_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50032",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt50032",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt50032Request",
+        "docs/contracts/accounts.md#kt50032"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt50032_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50075",
+      "market": "domestic",
+      "public_guide_group": "08",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/08/kt50075",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/domestic.rs#Kt50075Request",
+        "docs/contracts/accounts.md#kt50075"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_kt50075_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10014",
+      "market": "domestic",
+      "public_guide_group": "17",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/17/ka10014",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka10014Request",
+        "docs/contracts/analytics.md#ka10014"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10014_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka01300",
+      "market": "domestic",
+      "public_guide_group": "18",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/18/ka01300",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka01300Request",
+        "docs/contracts/analytics.md#ka01300"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka01300_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka01301",
+      "market": "domestic",
+      "public_guide_group": "18",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/18/ka01301",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka01301Request",
+        "docs/contracts/analytics.md#ka01301"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka01301_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10008",
+      "market": "domestic",
+      "public_guide_group": "03",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/03/ka10008",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka10008Request",
+        "docs/contracts/analytics.md#ka10008"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10008_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10131",
+      "market": "domestic",
+      "public_guide_group": "03",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/03/ka10131",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka10131Request",
+        "docs/contracts/analytics.md#ka10131"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10131_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka52301",
+      "market": "domestic",
+      "public_guide_group": "03",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/03/ka52301",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka52301Request",
+        "docs/contracts/analytics.md#ka52301"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka52301_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10068",
+      "market": "domestic",
+      "public_guide_group": "12",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/12/ka10068",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka10068Request",
+        "docs/contracts/analytics.md#ka10068"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10068_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10069",
+      "market": "domestic",
+      "public_guide_group": "12",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/12/ka10069",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka10069Request",
+        "docs/contracts/analytics.md#ka10069"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10069_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20068",
+      "market": "domestic",
+      "public_guide_group": "12",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/12/ka20068",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka20068Request",
+        "docs/contracts/analytics.md#ka20068"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka20068_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90012",
+      "market": "domestic",
+      "public_guide_group": "12",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/12/ka90012",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Ka90012Request",
+        "docs/contracts/analytics.md#ka90012"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka90012_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka00190",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka00190",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka00190Request",
+        "docs/contracts/analytics.md#ka00190"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka00190_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka00196",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka00196",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka00196Request",
+        "docs/contracts/analytics.md#ka00196"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka00196_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka04196",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka04196",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka04196Request",
+        "docs/contracts/analytics.md#ka04196"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka04196_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10020",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10020",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10020Request",
+        "docs/contracts/analytics.md#ka10020"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10020_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10021",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10021",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10021Request",
+        "docs/contracts/analytics.md#ka10021"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10021_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10022",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10022",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10022Request",
+        "docs/contracts/analytics.md#ka10022"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10022_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10023",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10023",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10023Request",
+        "docs/contracts/analytics.md#ka10023"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10023_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10027",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10027",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10027Request",
+        "docs/contracts/analytics.md#ka10027"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10027_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10029",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10029",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10029Request",
+        "docs/contracts/analytics.md#ka10029"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10029_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10030",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10030",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10030Request",
+        "docs/contracts/analytics.md#ka10030"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10030_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10031",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10031",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10031Request",
+        "docs/contracts/analytics.md#ka10031"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10031_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10032",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10032",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10032Request",
+        "docs/contracts/analytics.md#ka10032"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10032_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10033",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10033",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10033Request",
+        "docs/contracts/analytics.md#ka10033"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10033_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10034",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10034",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10034Request",
+        "docs/contracts/analytics.md#ka10034"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10034_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10035",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10035",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10035Request",
+        "docs/contracts/analytics.md#ka10035"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10035_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10036",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10036",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10036Request",
+        "docs/contracts/analytics.md#ka10036"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10036_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10037",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10037",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10037Request",
+        "docs/contracts/analytics.md#ka10037"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10037_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10038",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10038",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10038Request",
+        "docs/contracts/analytics.md#ka10038"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10038_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10039",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10039",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10039Request",
+        "docs/contracts/analytics.md#ka10039"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10039_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10040",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10040",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10040Request",
+        "docs/contracts/analytics.md#ka10040"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10040_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10042",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10042",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10042Request",
+        "docs/contracts/analytics.md#ka10042"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10042_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10053",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10053",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10053Request",
+        "docs/contracts/analytics.md#ka10053"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10053_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10062",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10062",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10062Request",
+        "docs/contracts/analytics.md#ka10062"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10062_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10065",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka10065",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka10065Request",
+        "docs/contracts/analytics.md#ka10065"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka10065_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90009",
+      "market": "domestic",
+      "public_guide_group": "05",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/05/ka90009",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/domestic_rankings.rs#Ka90009Request",
+        "docs/contracts/analytics.md#ka90009"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#ka90009_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10004",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10004",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10004Request",
+        "docs/contracts/market.md#ka10004"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10004"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10005",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10005",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10005Request",
+        "docs/contracts/market.md#ka10005"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10005"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10006",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10006",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10006Request",
+        "docs/contracts/market.md#ka10006"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10006"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10007",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10007",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10007Request",
+        "docs/contracts/market.md#ka10007"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10007"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10011",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10011",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10011Request",
+        "docs/contracts/market.md#ka10011"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10011"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10044",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10044",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10044Request",
+        "docs/contracts/market.md#ka10044"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10044"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10045",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10045",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10045Request",
+        "docs/contracts/market.md#ka10045"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10045"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10046",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10046",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10046Request",
+        "docs/contracts/market.md#ka10046"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10046"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/market.md"
+      ]
+    },
+    {
+      "id": "ka10047",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10047",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10047Request",
+        "docs/contracts/market.md#ka10047"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10047"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/market.md"
+      ]
+    },
+    {
+      "id": "ka10063",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10063",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10063Request",
+        "docs/contracts/market.md#ka10063"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10063"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10066",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10066",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10066Request",
+        "docs/contracts/market.md#ka10066"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10066"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10078",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10078",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10078Request",
+        "docs/contracts/market.md#ka10078"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10078"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10086",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka10086",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10086Request",
+        "docs/contracts/market.md#ka10086"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10086"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50010",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka50010",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka50010Request",
+        "docs/contracts/market.md#ka50010"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka50010"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50012",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka50012",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka50012Request",
+        "docs/contracts/market.md#ka50012"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka50012"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50087",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka50087",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka50087Request",
+        "docs/contracts/market.md#ka50087"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka50087"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50100",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka50100",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka50100Request",
+        "docs/contracts/market.md#ka50100"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka50100"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50101",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka50101",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka50101Request",
+        "docs/contracts/market.md#ka50101"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka50101"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90005",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka90005",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90005Request",
+        "docs/contracts/market.md#ka90005"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90005"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90006",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka90006",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90006Request",
+        "docs/contracts/market.md#ka90006"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90006"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90007",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka90007",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90007Request",
+        "docs/contracts/market.md#ka90007"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90007"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90008",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka90008",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90008Request",
+        "docs/contracts/market.md#ka90008"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90008"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/market.md"
+      ]
+    },
+    {
+      "id": "ka90010",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka90010",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90010Request",
+        "docs/contracts/market.md#ka90010"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90010"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/market.md"
+      ]
+    },
+    {
+      "id": "ka90013",
+      "market": "domestic",
+      "public_guide_group": "02",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/02/ka90013",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90013Request",
+        "docs/contracts/market.md#ka90013"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90013"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10006",
+      "market": "domestic",
+      "public_guide_group": "16",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/16/kt10006",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10006Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10006"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10007",
+      "market": "domestic",
+      "public_guide_group": "16",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/16/kt10007",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10007Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10007"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10008",
+      "market": "domestic",
+      "public_guide_group": "16",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/16/kt10008",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10008Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10008"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10009",
+      "market": "domestic",
+      "public_guide_group": "16",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/16/kt10009",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10009Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10009"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "00",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/00",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#DomesticOrderValues",
+        "docs/contracts/realtime.md#00"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#domestic_order_00_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "04",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/04",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#DomesticBalanceValues",
+        "docs/contracts/realtime.md#04"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#domestic_balance_04_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0A",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0A",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#StockQuoteValues",
+        "docs/contracts/realtime.md#0A"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#stock_quote_0a_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0B",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0B",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#StockExecutionValues",
+        "docs/contracts/realtime.md#0B"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#stock_execution_0b_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0C",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0C",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#BestQuoteValues",
+        "docs/contracts/realtime.md#0C"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#best_quote_0c_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0D",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0D",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#DomesticOrderBookValues",
+        "docs/contracts/realtime.md#0D"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#domestic_order_book_0d_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0E",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0E",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#AfterHoursQuoteValues",
+        "docs/contracts/realtime.md#0E"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#after_hours_quote_0e_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0F",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0F",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#StockBrokerValues",
+        "docs/contracts/realtime.md#0F"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#stock_broker_0f_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0G",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0G",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#EtfNavValues",
+        "docs/contracts/realtime.md#0G"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#etf_nav_upper_0g_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0H",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0H",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#ExpectedExecutionValues",
+        "docs/contracts/realtime.md#0H"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#expected_execution_0h_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0I",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0I",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#InternationalGoldValues",
+        "docs/contracts/realtime.md#0I"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#international_gold_0i_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0J",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0J",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#IndustryIndexValues",
+        "docs/contracts/realtime.md#0J"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#industry_index_0j_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0U",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0U",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#IndustryChangeValues",
+        "docs/contracts/realtime.md#0U"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#industry_change_upper_0u_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0g",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0g",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#StockInformationValues",
+        "docs/contracts/realtime.md#0g"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#stock_information_lower_0g_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0m",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0m",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#ElwTheoreticalValues",
+        "docs/contracts/realtime.md#0m"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#elw_theoretical_0m_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0s",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0s",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#MarketTimeValues",
+        "docs/contracts/realtime.md#0s"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#market_time_0s_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0u",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0u",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#ElwIndicatorValues",
+        "docs/contracts/realtime.md#0u"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#elw_indicator_lower_0u_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "0w",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/0w",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#ProgramTradingValues",
+        "docs/contracts/realtime.md#0w"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#program_trading_0w_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "1h",
+      "market": "domestic",
+      "public_guide_group": "14",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/14/1h",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#VolatilityInterruptionValues",
+        "docs/contracts/realtime.md#1h"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#volatility_interruption_1h_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10010",
+      "market": "domestic",
+      "public_guide_group": "04",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/04/ka10010",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10010Request",
+        "docs/contracts/charts.md#ka10010"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10010"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10051",
+      "market": "domestic",
+      "public_guide_group": "04",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/04/ka10051",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10051Request",
+        "docs/contracts/charts.md#ka10051"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10051"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20001",
+      "market": "domestic",
+      "public_guide_group": "04",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/04/ka20001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20001Request",
+        "docs/contracts/charts.md#ka20001"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20001"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20002",
+      "market": "domestic",
+      "public_guide_group": "04",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/04/ka20002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20002Request",
+        "docs/contracts/charts.md#ka20002"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20002"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20003",
+      "market": "domestic",
+      "public_guide_group": "04",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/04/ka20003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20003Request",
+        "docs/contracts/charts.md#ka20003"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20003"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20009",
+      "market": "domestic",
+      "public_guide_group": "04",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/04/ka20009",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20009Request",
+        "docs/contracts/charts.md#ka20009"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20009"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10171",
+      "market": "domestic",
+      "public_guide_group": "15",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/15/ka10171",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Ka10171Request",
+        "docs/contracts/conditions.md#ka10171"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_ka10171_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10172",
+      "market": "domestic",
+      "public_guide_group": "15",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/15/ka10172",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Ka10172Request",
+        "docs/contracts/conditions.md#ka10172"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_ka10172_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10173",
+      "market": "domestic",
+      "public_guide_group": "15",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/15/ka10173",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Ka10173Request",
+        "docs/contracts/conditions.md#ka10173"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_ka10173_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10174",
+      "market": "domestic",
+      "public_guide_group": "15",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/15/ka10174",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Ka10174Request",
+        "docs/contracts/conditions.md#ka10174"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_ka10174_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka00198",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka00198",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka00198Request",
+        "docs/contracts/market.md#ka00198"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka00198"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10001",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10001Request",
+        "docs/contracts/market.md#ka10001"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10001"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10002",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10002Request",
+        "docs/contracts/market.md#ka10002"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10002"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10003",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10003Request",
+        "docs/contracts/market.md#ka10003"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10003"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10013",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10013",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10013Request",
+        "docs/contracts/market.md#ka10013"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10013"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10015",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10015",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10015Request",
+        "docs/contracts/market.md#ka10015"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10015"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10016",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10016",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10016Request",
+        "docs/contracts/market.md#ka10016"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10016"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10017",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10017",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10017Request",
+        "docs/contracts/market.md#ka10017"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10017"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10018",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10018",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10018Request",
+        "docs/contracts/market.md#ka10018"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10018"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10019",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10019",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10019Request",
+        "docs/contracts/market.md#ka10019"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10019"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10024",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10024",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10024Request",
+        "docs/contracts/market.md#ka10024"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10024"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10025",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10025",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10025Request",
+        "docs/contracts/market.md#ka10025"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10025"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10026",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10026",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10026Request",
+        "docs/contracts/market.md#ka10026"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10026"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10028",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10028",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10028Request",
+        "docs/contracts/market.md#ka10028"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10028"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10043",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10043",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10043Request",
+        "docs/contracts/market.md#ka10043"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10043"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10052",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10052",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10052Request",
+        "docs/contracts/market.md#ka10052"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10052"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10054",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10054",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10054Request",
+        "docs/contracts/market.md#ka10054"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10054"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10055",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10055",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10055Request",
+        "docs/contracts/market.md#ka10055"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10055"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10058",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10058",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10058Request",
+        "docs/contracts/market.md#ka10058"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10058"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10059",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10059",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10059Request",
+        "docs/contracts/market.md#ka10059"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10059"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10061",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10061",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10061Request",
+        "docs/contracts/market.md#ka10061"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10061"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10084",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10084",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10084Request",
+        "docs/contracts/market.md#ka10084"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10084"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10095",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10095",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka10095Request",
+        "docs/contracts/market.md#ka10095"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10095"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/market.md"
+      ]
+    },
+    {
+      "id": "ka10099",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10099",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10099Request",
+        "docs/contracts/market.md#ka10099"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10099"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10100",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10100",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10100Request",
+        "docs/contracts/market.md#ka10100"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10100"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10101",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10101",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10101Request",
+        "docs/contracts/market.md#ka10101"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10101"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/market.md"
+      ]
+    },
+    {
+      "id": "ka10102",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10102",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10102Request",
+        "docs/contracts/market.md#ka10102"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10102"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10103",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka10103",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Ka10103Request",
+        "docs/contracts/market.md#ka10103"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka10103"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90003",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka90003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90003Request",
+        "docs/contracts/market.md#ka90003"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90003"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90004",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/ka90004",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Ka90004Request",
+        "docs/contracts/market.md#ka90004"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#ka90004"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt20016",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/kt20016",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Kt20016Request",
+        "docs/contracts/market.md#kt20016"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#kt20016"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt20017",
+      "market": "domestic",
+      "public_guide_group": "01",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/01/kt20017",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/domestic.rs#Kt20017Request",
+        "docs/contracts/market.md#kt20017"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#kt20017"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10000",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt10000",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10000Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10000"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10001",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt10001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10001Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10001"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10002",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt10002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10002Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10002"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt10003",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt10003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt10003Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt10003"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50000",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt50000",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt50000Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt50000"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50001",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt50001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt50001Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt50001"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50002",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt50002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt50002Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt50002"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "kt50003",
+      "market": "domestic",
+      "public_guide_group": "13",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/13/kt50003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Kt50003Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#kt50003"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10060",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10060",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10060Request",
+        "docs/contracts/charts.md#ka10060"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10060"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10064",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10064",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10064Request",
+        "docs/contracts/charts.md#ka10064"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10064"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10079",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10079",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10079Request",
+        "docs/contracts/charts.md#ka10079"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10079"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10080",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10080",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10080Request",
+        "docs/contracts/charts.md#ka10080"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10080"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10081",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10081",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10081Request",
+        "docs/contracts/charts.md#ka10081"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10081"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10082",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10082",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10082Request",
+        "docs/contracts/charts.md#ka10082"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10082"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10083",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10083",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10083Request",
+        "docs/contracts/charts.md#ka10083"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10083"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10094",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka10094",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka10094Request",
+        "docs/contracts/charts.md#ka10094"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka10094"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka11079",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka11079",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka11079Request",
+        "docs/contracts/charts.md#ka11079"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka11079"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka11080",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka11080",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka11080Request",
+        "docs/contracts/charts.md#ka11080"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka11080"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka11081",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka11081",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka11081Request",
+        "docs/contracts/charts.md#ka11081"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka11081"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka11082",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka11082",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka11082Request",
+        "docs/contracts/charts.md#ka11082"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka11082"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka11083",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka11083",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka11083Request",
+        "docs/contracts/charts.md#ka11083"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka11083"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka11094",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka11094",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka11094Request",
+        "docs/contracts/charts.md#ka11094"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka11094"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20004",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka20004",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20004Request",
+        "docs/contracts/charts.md#ka20004"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20004"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20005",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka20005",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20005Request",
+        "docs/contracts/charts.md#ka20005"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20005"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20006",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka20006",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20006Request",
+        "docs/contracts/charts.md#ka20006"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20006"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20007",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka20007",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20007Request",
+        "docs/contracts/charts.md#ka20007"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20007"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/charts.md#document-inconsistency"
+      ]
+    },
+    {
+      "id": "ka20008",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka20008",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20008Request",
+        "docs/contracts/charts.md#ka20008"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20008"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka20019",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka20019",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka20019Request",
+        "docs/contracts/charts.md#ka20019"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka20019"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50079",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka50079",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka50079Request",
+        "docs/contracts/charts.md#ka50079"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka50079"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50080",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka50080",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka50080Request",
+        "docs/contracts/charts.md#ka50080"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka50080"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50081",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka50081",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka50081Request",
+        "docs/contracts/charts.md#ka50081"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka50081"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50082",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka50082",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka50082Request",
+        "docs/contracts/charts.md#ka50082"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka50082"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50083",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka50083",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka50083Request",
+        "docs/contracts/charts.md#ka50083"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka50083"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50091",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka50091",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka50091Request",
+        "docs/contracts/charts.md#ka50091"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka50091"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka50092",
+      "market": "domestic",
+      "public_guide_group": "07",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/07/ka50092",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Ka50092Request",
+        "docs/contracts/charts.md#ka50092"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_ka50092"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90001",
+      "market": "domestic",
+      "public_guide_group": "11",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/11/ka90001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka90001Request",
+        "docs/contracts/products.md#ka90001"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka90001_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka90002",
+      "market": "domestic",
+      "public_guide_group": "11",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/11/ka90002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka90002Request",
+        "docs/contracts/products.md#ka90002"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka90002_contract"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/products.md"
+      ]
+    },
+    {
+      "id": "ka10048",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka10048",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka10048Request",
+        "docs/contracts/products.md#ka10048"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka10048_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka10050",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka10050",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka10050Request",
+        "docs/contracts/products.md#ka10050"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka10050_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30001",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30001Request",
+        "docs/contracts/products.md#ka30001"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30001_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30002",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30002Request",
+        "docs/contracts/products.md#ka30002"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30002_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30003",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30003Request",
+        "docs/contracts/products.md#ka30003"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30003_contract"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/products.md"
+      ]
+    },
+    {
+      "id": "ka30004",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30004",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30004Request",
+        "docs/contracts/products.md#ka30004"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30004_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30005",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30005",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30005Request",
+        "docs/contracts/products.md#ka30005"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30005_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30009",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30009",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30009Request",
+        "docs/contracts/products.md#ka30009"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30009_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30010",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30010",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30010Request",
+        "docs/contracts/products.md#ka30010"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30010_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30011",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30011",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30011Request",
+        "docs/contracts/products.md#ka30011"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30011_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka30012",
+      "market": "domestic",
+      "public_guide_group": "06",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/06/ka30012",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka30012Request",
+        "docs/contracts/products.md#ka30012"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka30012_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40001",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40001Request",
+        "docs/contracts/products.md#ka40001"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40001_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40002",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40002Request",
+        "docs/contracts/products.md#ka40002"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40002_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40003",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40003Request",
+        "docs/contracts/products.md#ka40003"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40003_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40004",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40004",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40004Request",
+        "docs/contracts/products.md#ka40004"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40004_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40006",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40006",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40006Request",
+        "docs/contracts/products.md#ka40006"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40006_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40007",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40007",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40007Request",
+        "docs/contracts/products.md#ka40007"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40007_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40008",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40008",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40008Request",
+        "docs/contracts/products.md#ka40008"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40008_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40009",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40009",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40009Request",
+        "docs/contracts/products.md#ka40009"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40009_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ka40010",
+      "market": "domestic",
+      "public_guide_group": "10",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/10/ka40010",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ka40010Request",
+        "docs/contracts/products.md#ka40010"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ka40010_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa21670",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/usa21670",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Usa21670Request",
+        "docs/contracts/accounts.md#usa21670"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_usa21670_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa21680",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/usa21680",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Usa21680Request",
+        "docs/contracts/accounts.md#usa21680"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_usa21680_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa21690",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/usa21690",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Usa21690Request",
+        "docs/contracts/accounts.md#usa21690"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_usa21690_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa21730",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/usa21730",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Usa21730Request",
+        "docs/contracts/accounts.md#usa21730"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_usa21730_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa21731",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/usa21731",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Usa21731Request",
+        "docs/contracts/accounts.md#usa21731"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_usa21731_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa21732",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/usa21732",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Usa21732Request",
+        "docs/contracts/accounts.md#usa21732"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_usa21732_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21050",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21050",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21050Request",
+        "docs/contracts/accounts.md#ust21050"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21050_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21070",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21070",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21070Request",
+        "docs/contracts/accounts.md#ust21070"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21070_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21100",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21100",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/transactions.rs#Ust21100Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/contracts.rs#pagination_sends_exact_cursor_and_preserves_original_fields"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21110",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21110",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21110Request",
+        "docs/contracts/accounts.md#ust21110"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21110_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21111",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21111",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21111Request",
+        "docs/contracts/accounts.md#ust21111"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21111_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21120",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21120",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21120Request",
+        "docs/contracts/accounts.md#ust21120"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21120_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21121",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21121",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21121Request",
+        "docs/contracts/accounts.md#ust21121"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21121_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21131",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21131",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21131Request",
+        "docs/contracts/accounts.md#ust21131"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21131_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21132",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21132",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21132Request",
+        "docs/contracts/accounts.md#ust21132"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21132_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21150",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21150",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21150Request",
+        "docs/contracts/accounts.md#ust21150"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21150_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21160",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21160",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21160Request",
+        "docs/contracts/accounts.md#ust21160"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21160_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21170",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21170",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21170Request",
+        "docs/contracts/accounts.md#ust21170"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21170_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21180",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21180",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21180Request",
+        "docs/contracts/accounts.md#ust21180"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21180_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21510",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21510",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21510Request",
+        "docs/contracts/accounts.md#ust21510"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21510_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21530",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21530",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21530Request",
+        "docs/contracts/accounts.md#ust21530"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21530_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21610",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21610",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21610Request",
+        "docs/contracts/accounts.md#ust21610"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21610_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21620",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21620",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21620Request",
+        "docs/contracts/accounts.md#ust21620"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21620_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21630",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21630",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21630Request",
+        "docs/contracts/accounts.md#ust21630"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21630_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21640",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21640",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21640Request",
+        "docs/contracts/accounts.md#ust21640"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21640_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21650",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21650",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21650Request",
+        "docs/contracts/accounts.md#ust21650"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21650_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21660",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21660",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21660Request",
+        "docs/contracts/accounts.md#ust21660"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21660_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21661",
+      "market": "us",
+      "public_guide_group": "32",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/32/ust21661",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/accounts/us.rs#Ust21661Request",
+        "docs/contracts/accounts.md#ust21661"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/accounts.rs#mock_ust21661_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20200",
+      "market": "us",
+      "public_guide_group": "42",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/42/usa20200",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Usa20200Request",
+        "docs/contracts/analytics.md#usa20200"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20200_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20201",
+      "market": "us",
+      "public_guide_group": "42",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/42/usa20201",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/flows.rs#Usa20201Request",
+        "docs/contracts/analytics.md#usa20201"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20201_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa01980",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa01980",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa01980Request",
+        "docs/contracts/analytics.md#usa01980"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa01980_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa01990",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa01990",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa01990Request",
+        "docs/contracts/analytics.md#usa01990"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa01990_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20510",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20510",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20510Request",
+        "docs/contracts/analytics.md#usa20510"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20510_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20511",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20511",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20511Request",
+        "docs/contracts/analytics.md#usa20511"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20511_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20512",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20512",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20512Request",
+        "docs/contracts/analytics.md#usa20512"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20512_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20530",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20530",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20530Request",
+        "docs/contracts/analytics.md#usa20530"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20530_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20531",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20531",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20531Request",
+        "docs/contracts/analytics.md#usa20531"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20531_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20540",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20540",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20540Request",
+        "docs/contracts/analytics.md#usa20540"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20540_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20541",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20541",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20541Request",
+        "docs/contracts/analytics.md#usa20541"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20541_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20550",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20550",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20550Request",
+        "docs/contracts/analytics.md#usa20550"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20550_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20551",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20551",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20551Request",
+        "docs/contracts/analytics.md#usa20551"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20551_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20880",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20880",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20880Request",
+        "docs/contracts/analytics.md#usa20880"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20880_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20881",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20881",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20881Request",
+        "docs/contracts/analytics.md#usa20881"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20881_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20910",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20910",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20910Request",
+        "docs/contracts/analytics.md#usa20910"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20910_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20911",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20911",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20911Request",
+        "docs/contracts/analytics.md#usa20911"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20911_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20920",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20920",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20920Request",
+        "docs/contracts/analytics.md#usa20920"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20920_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20921",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20921",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20921Request",
+        "docs/contracts/analytics.md#usa20921"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20921_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20922",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20922",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20922Request",
+        "docs/contracts/analytics.md#usa20922"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20922_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20940",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20940",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20940Request",
+        "docs/contracts/analytics.md#usa20940"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20940_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20941",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20941",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20941Request",
+        "docs/contracts/analytics.md#usa20941"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20941_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20960",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20960",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20960Request",
+        "docs/contracts/analytics.md#usa20960"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20960_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20961",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa20961",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa20961Request",
+        "docs/contracts/analytics.md#usa20961"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa20961_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24110",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24110",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24110Request",
+        "docs/contracts/analytics.md#usa24110"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24110_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24111",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24111",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24111Request",
+        "docs/contracts/analytics.md#usa24111"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24111_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24120",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24120",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24120Request",
+        "docs/contracts/analytics.md#usa24120"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24120_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24121",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24121",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24121Request",
+        "docs/contracts/analytics.md#usa24121"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24121_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24150",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24150",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24150Request",
+        "docs/contracts/analytics.md#usa24150"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24150_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24151",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24151",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24151Request",
+        "docs/contracts/analytics.md#usa24151"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24151_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24160",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24160",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24160Request",
+        "docs/contracts/analytics.md#usa24160"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24160_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24161",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24161",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24161Request",
+        "docs/contracts/analytics.md#usa24161"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24161_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24162",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24162",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24162Request",
+        "docs/contracts/analytics.md#usa24162"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24162_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24200",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24200",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24200Request",
+        "docs/contracts/analytics.md#usa24200"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24200_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24201",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24201",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24201Request",
+        "docs/contracts/analytics.md#usa24201"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24201_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24290",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24290",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24290Request",
+        "docs/contracts/analytics.md#usa24290"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24290_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24291",
+      "market": "us",
+      "public_guide_group": "35",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/35/usa24291",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/analytics/us_rankings.rs#Usa24291Request",
+        "docs/contracts/analytics.md#usa24291"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/analytics.rs#usa24291_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20100",
+      "market": "us",
+      "public_guide_group": "33",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/33/usa20100",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa20100Request",
+        "docs/contracts/market.md#usa20100"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20100"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20101",
+      "market": "us",
+      "public_guide_group": "33",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/33/usa20101",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa20101Request",
+        "docs/contracts/market.md#usa20101"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20101"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20150",
+      "market": "us",
+      "public_guide_group": "33",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/33/usa20150",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa20150Request",
+        "docs/contracts/market.md#usa20150"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20150"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20151",
+      "market": "us",
+      "public_guide_group": "33",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/33/usa20151",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa20151Request",
+        "docs/contracts/market.md#usa20151"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20151"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20590",
+      "market": "us",
+      "public_guide_group": "33",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/33/usa20590",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa20590Request",
+        "docs/contracts/market.md#usa20590"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20590"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "F4",
+      "market": "us",
+      "public_guide_group": "40",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/40/F4",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#UsOrderConfirmationValues",
+        "docs/contracts/realtime.md#F4"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#us_order_confirmation_f4_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "F5",
+      "market": "us",
+      "public_guide_group": "40",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/40/F5",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#UsExecutionValues",
+        "docs/contracts/realtime.md#F5"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#us_execution_f5_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "FE",
+      "market": "us",
+      "public_guide_group": "40",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/40/FE",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#UsTradePriceValues",
+        "docs/contracts/realtime.md#FE"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#us_trade_price_fe_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "FT",
+      "market": "us",
+      "public_guide_group": "40",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/40/FT",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/realtime/payloads.rs#UsOrderBookValues",
+        "docs/contracts/realtime.md#FT"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/realtime.rs#us_order_book_ft_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa23000",
+      "market": "us",
+      "public_guide_group": "34",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/34/usa23000",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa23000Request",
+        "docs/contracts/charts.md#usa23000"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa23000"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa23100",
+      "market": "us",
+      "public_guide_group": "34",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/34/usa23100",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa23100Request",
+        "docs/contracts/charts.md#usa23100"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa23100"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20280",
+      "market": "us",
+      "public_guide_group": "39",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/39/usa20280",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Usa20280Request",
+        "docs/contracts/conditions.md#usa20280"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_usa20280_contract"
+      ],
+      "live_verified": false,
+      "limitation_evidence": [
+        "docs/contracts/conditions.md"
+      ]
+    },
+    {
+      "id": "usa20281",
+      "market": "us",
+      "public_guide_group": "39",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/39/usa20281",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Usa20281Request",
+        "docs/contracts/conditions.md#usa20281"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_usa20281_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20290",
+      "market": "us",
+      "public_guide_group": "39",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/39/usa20290",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Usa20290Request",
+        "docs/contracts/conditions.md#usa20290"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_usa20290_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20291",
+      "market": "us",
+      "public_guide_group": "39",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/39/usa20291",
+      "status": "typed_mock_tested",
+      "transport": "websocket",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/ws/conditions/rpc.rs#Usa20291Request",
+        "docs/contracts/conditions.md#usa20291"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/conditions.rs#mock_usa20291_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10098",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10098",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10098Request",
+        "docs/contracts/market.md#usa10098"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10098"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10099",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10099",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10099Request",
+        "docs/contracts/market.md#usa10099"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10099"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10100",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10100",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10100Request",
+        "docs/contracts/market.md#usa10100"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10100"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10101",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10101",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10101Request",
+        "docs/contracts/market.md#usa10101"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10101"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10102",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10102",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10102Request",
+        "docs/contracts/market.md#usa10102"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10102"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10103",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10103",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10103Request",
+        "docs/contracts/market.md#usa10103"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10103"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10104",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10104",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10104Request",
+        "docs/contracts/market.md#usa10104"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10104"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa10105",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa10105",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/instruments.rs#Usa10105Request",
+        "docs/contracts/market.md#usa10105"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa10105"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20520",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20520",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20520Request",
+        "docs/contracts/market.md#usa20520"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20520"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20521",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20521",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20521Request",
+        "docs/contracts/market.md#usa20521"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20521"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20570",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20570",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20570Request",
+        "docs/contracts/market.md#usa20570"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20570"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20571",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20571",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20571Request",
+        "docs/contracts/market.md#usa20571"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20571"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20930",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20930",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20930Request",
+        "docs/contracts/market.md#usa20930"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20930"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20931",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20931",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20931Request",
+        "docs/contracts/market.md#usa20931"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20931"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20932",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20932",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20932Request",
+        "docs/contracts/market.md#usa20932"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20932"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20970",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20970",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20970Request",
+        "docs/contracts/market.md#usa20970"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20970"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20971",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20971",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20971Request",
+        "docs/contracts/market.md#usa20971"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20971"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa20972",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa20972",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa20972Request",
+        "docs/contracts/market.md#usa20972"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa20972"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa23400",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa23400",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa23400Request",
+        "docs/contracts/market.md#usa23400"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa23400"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa23401",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa23401",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa23401Request",
+        "docs/contracts/market.md#usa23401"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa23401"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa23402",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa23402",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa23402Request",
+        "docs/contracts/market.md#usa23402"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa23402"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24100",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24100",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24100Request",
+        "docs/contracts/market.md#usa24100"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24100"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24101",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24101",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24101Request",
+        "docs/contracts/market.md#usa24101"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24101"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24140",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24140",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24140Request",
+        "docs/contracts/market.md#usa24140"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24140"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24141",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24141",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24141Request",
+        "docs/contracts/market.md#usa24141"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24141"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24210",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24210",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24210Request",
+        "docs/contracts/market.md#usa24210"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24210"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24211",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24211",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24211Request",
+        "docs/contracts/market.md#usa24211"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24211"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24220",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24220",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24220Request",
+        "docs/contracts/market.md#usa24220"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24220"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24221",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa24221",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa24221Request",
+        "docs/contracts/market.md#usa24221"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa24221"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa26410",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa26410",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa26410Request",
+        "docs/contracts/market.md#usa26410"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa26410"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa26411",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa26411",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa26411Request",
+        "docs/contracts/market.md#usa26411"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa26411"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa26412",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa26412",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa26412Request",
+        "docs/contracts/market.md#usa26412"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa26412"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa26413",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa26413",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa26413Request",
+        "docs/contracts/market.md#usa26413"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa26413"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa26414",
+      "market": "us",
+      "public_guide_group": "31",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/31/usa26414",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/market/us_screening.rs#Usa26414Request",
+        "docs/contracts/market.md#usa26414"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/market.rs#usa26414"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust20000",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust20000",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust20000Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust20000"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust20001",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust20001",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust20001Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust20001"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust20002",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust20002",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust20002Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust20002"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust20003",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust20003",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust20003Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust20003"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21200",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust21200",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust21200Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust21200"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21201",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust21201",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust21201Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust21201"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21203",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust21203",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust21203Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust21203"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21204",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust21204",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust21204Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#read_only_order_queries"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust21205",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust21205",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust21205Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#read_only_order_queries"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust31490",
+      "market": "us",
+      "public_guide_group": "38",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/38/ust31490",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust31490Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#read_only_order_queries"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa06010",
+      "market": "us",
+      "public_guide_group": "36",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/36/usa06010",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa06010Request",
+        "docs/contracts/charts.md#usa06010"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa06010"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa06011",
+      "market": "us",
+      "public_guide_group": "36",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/36/usa06011",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa06011Request",
+        "docs/contracts/charts.md#usa06011"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa06011"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa06012",
+      "market": "us",
+      "public_guide_group": "36",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/36/usa06012",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa06012Request",
+        "docs/contracts/charts.md#usa06012"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa06012"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa06013",
+      "market": "us",
+      "public_guide_group": "36",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/36/usa06013",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa06013Request",
+        "docs/contracts/charts.md#usa06013"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa06013"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa06014",
+      "market": "us",
+      "public_guide_group": "36",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/36/usa06014",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa06014Request",
+        "docs/contracts/charts.md#usa06014"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa06014"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa06015",
+      "market": "us",
+      "public_guide_group": "36",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/36/usa06015",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa06015Request",
+        "docs/contracts/charts.md#usa06015"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa06015"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa06016",
+      "market": "us",
+      "public_guide_group": "36",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/36/usa06016",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/charts.rs#Usa06016Request",
+        "docs/contracts/charts.md#usa06016"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/charts.rs#mock_usa06016"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "usa24300",
+      "market": "us",
+      "public_guide_group": "37",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/37/usa24300",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Usa24300Request",
+        "docs/contracts/products.md#usa24300"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#usa24300_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust31300",
+      "market": "us",
+      "public_guide_group": "41",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/41/ust31300",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ust31300Request",
+        "docs/contracts/products.md#ust31300"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ust31300_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust31301",
+      "market": "us",
+      "public_guide_group": "41",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/41/ust31301",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "read_only",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/products.rs#Ust31301Request",
+        "docs/contracts/products.md#ust31301"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/products.rs#ust31301_contract"
+      ],
+      "live_verified": false
+    },
+    {
+      "id": "ust31302",
+      "market": "us",
+      "public_guide_group": "41",
+      "source": "https://openapi.kiwoom.com/m/guide/apiguide/41/ust31302",
+      "status": "typed_mock_tested",
+      "transport": "http",
+      "safety": "mutation",
+      "contract_evidence": [
+        "crates/kiwoom-domain/src/orders.rs#Ust31302Request"
+      ],
+      "test_evidence": [
+        "crates/kiwoom-client/tests/orders.rs#ust31302"
+      ],
+      "live_verified": false
+    }
+  ]
+}

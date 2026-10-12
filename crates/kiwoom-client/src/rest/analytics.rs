@@ -1,0 +1,414 @@
+//! analytics 영역의 REST 호출입니다. 계약과 검증은 domain에서 가져옵니다.
+
+use super::Client;
+use crate::runtime::http::Transport;
+use kiwoom_core::{ClientError, Page, Secret};
+use kiwoom_domain::analytics::*;
+
+read!(
+    usa01980,
+    Usa01980Request,
+    Usa01980Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa01990,
+    Usa01990Request,
+    Usa01990Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20510,
+    Usa20510Request,
+    Usa20510Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20511,
+    Usa20511Request,
+    Usa20511Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20512,
+    Usa20512Request,
+    Usa20512Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20530,
+    Usa20530Request,
+    Usa20530Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20531,
+    Usa20531Request,
+    Usa20531Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20540,
+    Usa20540Request,
+    Usa20540Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20541,
+    Usa20541Request,
+    Usa20541Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20550,
+    Usa20550Request,
+    Usa20550Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20551,
+    Usa20551Request,
+    Usa20551Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20880,
+    Usa20880Request,
+    Usa20880Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20881,
+    Usa20881Request,
+    Usa20881Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20910,
+    Usa20910Request,
+    Usa20910Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20911,
+    Usa20911Request,
+    Usa20911Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20920,
+    Usa20920Request,
+    Usa20920Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20921,
+    Usa20921Request,
+    Usa20921Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20922,
+    Usa20922Request,
+    Usa20922Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20940,
+    Usa20940Request,
+    Usa20940Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20941,
+    Usa20941Request,
+    Usa20941Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20960,
+    Usa20960Request,
+    Usa20960Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa20961,
+    Usa20961Request,
+    Usa20961Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24110,
+    Usa24110Request,
+    Usa24110Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24111,
+    Usa24111Request,
+    Usa24111Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24120,
+    Usa24120Request,
+    Usa24120Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24121,
+    Usa24121Request,
+    Usa24121Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24150,
+    Usa24150Request,
+    Usa24150Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24151,
+    Usa24151Request,
+    Usa24151Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24160,
+    Usa24160Request,
+    Usa24160Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24161,
+    Usa24161Request,
+    Usa24161Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24162,
+    Usa24162Request,
+    Usa24162Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24200,
+    Usa24200Request,
+    Usa24200Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24201,
+    Usa24201Request,
+    Usa24201Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24290,
+    Usa24290Request,
+    Usa24290Response,
+    "/api/us/rkinfo"
+);
+read!(
+    usa24291,
+    Usa24291Request,
+    Usa24291Response,
+    "/api/us/rkinfo"
+);
+read!(
+    ka00190,
+    Ka00190Request,
+    Ka00190Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka00196,
+    Ka00196Request,
+    Ka00196Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka04196,
+    Ka04196Request,
+    Ka04196Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10020,
+    Ka10020Request,
+    Ka10020Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10021,
+    Ka10021Request,
+    Ka10021Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10022,
+    Ka10022Request,
+    Ka10022Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10023,
+    Ka10023Request,
+    Ka10023Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10027,
+    Ka10027Request,
+    Ka10027Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10029,
+    Ka10029Request,
+    Ka10029Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10030,
+    Ka10030Request,
+    Ka10030Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10031,
+    Ka10031Request,
+    Ka10031Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10032,
+    Ka10032Request,
+    Ka10032Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10033,
+    Ka10033Request,
+    Ka10033Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10034,
+    Ka10034Request,
+    Ka10034Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10035,
+    Ka10035Request,
+    Ka10035Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10036,
+    Ka10036Request,
+    Ka10036Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10037,
+    Ka10037Request,
+    Ka10037Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10038,
+    Ka10038Request,
+    Ka10038Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10039,
+    Ka10039Request,
+    Ka10039Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10040,
+    Ka10040Request,
+    Ka10040Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10042,
+    Ka10042Request,
+    Ka10042Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10053,
+    Ka10053Request,
+    Ka10053Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10062,
+    Ka10062Request,
+    Ka10062Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka10065,
+    Ka10065Request,
+    Ka10065Response,
+    "/api/dostk/rkinfo"
+);
+read!(
+    ka90009,
+    Ka90009Request,
+    Ka90009Response,
+    "/api/dostk/rkinfo"
+);
+read!(ka10014, Ka10014Request, Ka10014Response, "/api/dostk/shsa");
+read!(
+    ka01300,
+    Ka01300Request,
+    Ka01300Response,
+    "/api/dostk/watchlist"
+);
+read!(
+    ka01301,
+    Ka01301Request,
+    Ka01301Response,
+    "/api/dostk/watchlist"
+);
+read!(
+    ka10008,
+    Ka10008Request,
+    Ka10008Response,
+    "/api/dostk/frgnistt"
+);
+read!(
+    ka10131,
+    Ka10131Request,
+    Ka10131Response,
+    "/api/dostk/frgnistt"
+);
+read!(
+    ka52301,
+    Ka52301Request,
+    Ka52301Response,
+    "/api/dostk/frgnistt"
+);
+read!(ka10068, Ka10068Request, Ka10068Response, "/api/dostk/slb");
+read!(ka10069, Ka10069Request, Ka10069Response, "/api/dostk/slb");
+read!(ka20068, Ka20068Request, Ka20068Response, "/api/dostk/slb");
+read!(ka90012, Ka90012Request, Ka90012Response, "/api/dostk/slb");
+read!(
+    usa20200,
+    Usa20200Request,
+    Usa20200Response,
+    "/api/us/watchlist"
+);
+read!(
+    usa20201,
+    Usa20201Request,
+    Usa20201Response,
+    "/api/us/watchlist"
+);

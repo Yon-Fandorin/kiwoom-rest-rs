@@ -1,0 +1,27 @@
+[package]
+name = "kiwoom-client"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+kiwoom-core = { path = "../kiwoom-core" }
+kiwoom-domain = { path = "../kiwoom-domain" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+async-trait.workspace = true
+tokio.workspace = true
+reqwest.workspace = true
+chrono.workspace = true
+httpdate.workspace = true
+tokio-tungstenite = { version = "0.30", features = ["rustls-tls-webpki-roots"] }
+futures-util = { version = "0.3", features = ["sink"] }
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+h2 = "0.4"
+reqwest = { workspace = true, features = ["http2"] }

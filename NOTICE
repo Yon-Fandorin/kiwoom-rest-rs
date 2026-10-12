@@ -1,0 +1,10 @@
+kiwoom-rest-rs
+
+Independent Rust client for public Kiwoom REST/WebSocket interfaces.
+Independently authored project material is licensed under
+the Apache License, Version 2.0; see LICENSE.
+
+This project is not an official Kiwoom Securities SDK and is not affiliated with
+or endorsed by Kiwoom Securities. Kiwoom names and marks belong to their respective
+owners. The project license grants no rights to official SDK code, schemas,
+documentation, broker services, or third-party dependencies.
