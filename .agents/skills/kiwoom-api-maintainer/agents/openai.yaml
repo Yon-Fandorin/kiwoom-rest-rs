@@ -1,4 +1,4 @@
 interface:
   display_name: "Kiwoom API Maintainer"
-  short_description: "Track Kiwoom guide changes and SDK contract impact"
-  default_prompt: "Use $kiwoom-api-maintainer to check public Kiwoom guide changes and assess this SDK's contract impact."
+  short_description: "Track Kiwoom updates and prepare bounded documentation PRs"
+  default_prompt: "Use $kiwoom-api-maintainer to check Kiwoom update signals and public guide changes, assess SDK impact, and prepare authorized documentation PRs."

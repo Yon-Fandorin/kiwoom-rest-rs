@@ -1,9 +1,10 @@
 ---
 name: kiwoom-api-maintainer
 description: >-
-  Track public Kiwoom REST and WebSocket guide changes, assess their impact on
-  independent SDK contracts, and apply verified updates with mock regression
-  evidence. Use for this SDK's Kiwoom API compatibility maintenance, change checks, and release notes for feature updates.
+  Track public Kiwoom guide changes and official GitHub update signals, assess
+  their impact on independent SDK contracts, and apply verified updates with
+  mock regression evidence. Use for this SDK's API maintenance, monitored
+  documentation PRs, change checks, and release notes for feature updates.
   Not for account operations or copying official implementations or schemas.
 metadata:
   version: "1.0.0"
@@ -26,6 +27,12 @@ implementation. A change check permits reading public documentation and creating
 private evidence; apply contract changes only within the user's implementation
 request. Scheduling a recurring check, publishing, credential access, and broker
 execution are separate actions, not consequences of detecting a change.
+
+For monitored maintenance, read [monitoring and documentation PRs](references/monitoring.md)
+before checking GitHub signals or handling unattended updates. It defines private
+state, impact gates, scheduler handoff and the documentation-only PR boundary.
+For an ordinary feature update unrelated to an API change, skip guide acquisition
+and proceed to release notes; inspect only the affected code and repository checks.
 
 ## Observe and compare
 
@@ -65,6 +72,10 @@ source observation separately from implementation promotion: `typed_mock_tested`
 needs actual typed-contract/mock evidence; never set `live_verified` from docs,
 synthetic tests, compilation, or source comparison. If existing evidence is stale,
 mark the bounded support limitation using the repository's inventory convention.
+
+In a documentation-only monitored run, a semantic contract or support change
+requires a decision even when its proposed edit is Markdown. Follow the monitoring
+reference's allowed PR scope; an upstream commit alone never authorizes a patch.
 
 ## Keep release notes with implementation
 
