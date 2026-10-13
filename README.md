@@ -37,6 +37,8 @@ cargo run -p kiwoom-mcp --locked -- --transport stdio
 
 키움 공개 가이드 변경은 프로젝트의 [API 유지보수 스킬](.agents/skills/kiwoom-api-maintainer/SKILL.md)로 확인합니다. 확인된 API 추가·수정·삭제와 일반 기능 변경은 [변경 이력](CHANGELOG.md)의 `Unreleased`에 반영하고 관련 코드와 같은 커밋에 포함합니다. 변경 감지 자료·검토 기록은 Git 제외 `local/`에 보관합니다. 이 흐름은 릴리즈 게시나 실계좌 호출을 수행하지 않습니다.
 
+지속 점검에 사용하는 [모니터링 절차](.agents/skills/kiwoom-api-maintainer/references/monitoring.md)는 공식 GitHub의 업데이트 신호와 공개 가이드를 대조합니다. 문서 PR 작성이 승인된 경우 계약·지원 의미가 바뀌지 않는 문서 정정만 검사 후 PR로 제출하고, 코드·계약에 영향이 있거나 의미가 불명확한 변경은 판단을 요청합니다. Your dot 또는 로컬 에이전트의 실행 환경·주기 등록은 별도로 필요합니다.
+
 ## 실행 정책
 
 네트워크 연결은 명시적으로 허용해야 하며 자격 증명은 호출자가 전달합니다. 주문·환전 등 금융 변경은 기본적으로 `WritePolicy::Deny`로 차단합니다. `WritePolicy::ExplicitOptIn`을 설정해도 자동 재시도하거나 인증 실패 후 다시 제출하지 않습니다.
